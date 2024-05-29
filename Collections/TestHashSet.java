@@ -1,7 +1,7 @@
 import java.util.*;
 public class TestHashSet {
     public static void main(String args[]) {
-        int t[] = {2, 5, -6, 2, -8, 9, 5};
+        int t[] = {2, 5, -6, 2, -8, 9, 5, 1, 3};
         HashSet<Integer> hashSet = new HashSet<Integer>();
         for(int i:t) {
             boolean isAdded = hashSet.add(i);
